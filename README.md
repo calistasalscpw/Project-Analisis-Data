@@ -1,4 +1,23 @@
-# Project-Analisis-Data
-Projek ini berisi analisis data terhadap sebuah dataset melalui tahap Data Wrangling, EDA, Data Visualization, dan Dashboard sederhana
+# E-Commerce Collection Dashboard
 
-Dataset yang digunakan bernama E-Commerce Public Dataset
+## Setup Environment - Anaconda
+
+```
+conda create --name main-ds python=3.12
+conda activate main-ds
+pip install requirement.txt
+```
+
+## Setup Environment - Shell/Terminal
+
+```
+mkdir project_analisis_data
+cd project_analisis_data
+pipenv install
+pipenv shell
+pip install -r requirement.txt
+```
+
+## Run streamlit app
+
+streamlit run dashboard.py
