@@ -1,0 +1,8 @@
+Library yang dibutuhkan:
+
+numpy
+pandas
+matplotlib.pyplot
+seaborn
+streamlit
+babel
